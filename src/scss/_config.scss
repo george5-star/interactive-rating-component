@@ -1,0 +1,23 @@
+@import 'mixins';
+@import 'variables';
+
+*,*::before,*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    background: $deep-dark-blue;
+    color: $pure-white;
+    font-family: $ff-primary;
+    @include flexit;
+}
+
+.attribution{
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,23 @@
+@mixin flexit {
+    display: grid;
+    place-items: center;
+}
+
+@mixin rating-grid {
+    display: flex;
+    justify-content: space-between;
+}
+
+@mixin container{
+    width: 40px;
+    height: 40px;
+    background: $dark-blue;
+    border-radius: 50%;
+}
+
+@mixin card-settings{
+    width: 350px;
+    height: 350px;
+    background: linear-gradient(to bottom, $dark-blue, lighten($deep-dark-blue, 3%));
+    border-radius: 1.2rem;
+}
